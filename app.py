@@ -1,4 +1,7 @@
 import os
+# Force Whisper to use FP32 (avoid FP16 warning on CPU)
+os.environ["WHISPER_FP16"] = "False"
+
 import streamlit as st
 from datetime import datetime
 from core.transcriber import MeetingTranscriber
