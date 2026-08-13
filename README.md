@@ -89,13 +89,6 @@ This app is configured for easy deployment on **[Streamlit Cloud](https://share.
 4.  In the app settings, add your `MISTRAL_API_KEY` as a secret.
 5.  Click **"Deploy"**.
 
----
-
-## 📸 Screenshots
-
-*(You can add screenshots of your app here)*
-
----
 
 ## 🛠️ Tech Stack
 
